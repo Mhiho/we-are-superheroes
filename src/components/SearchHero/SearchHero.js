@@ -3,19 +3,18 @@ import React from 'react';
 
 const searchHero = props => {
     return (
-      <div className="" >
-        <form onSubmit={props.submit}>
+      <div>
+        <form  onSubmit={props.submit}>
           <input
-            placeholder="wpisz nazwę superbohatera"
-            className=""
+            placeholder="type your superhero"
             onChange={props.change}
             type="search"
             value={props.term}
             />
             <input
-            className=""
+            className="btn btn-md btn-primary"
             type="submit"
-            value="szukaj"
+            value="search"
             />
           </form>
       </div>

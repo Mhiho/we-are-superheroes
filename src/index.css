@@ -1,15 +1,17 @@
+@font-face {
+  font-family: 'Adventure';
+  src: local('Adventure'), url('./style/fonts/Adventure.otf') format('opentype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Adventure';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 .fixed-position {
   position: fixed;
@@ -17,4 +19,34 @@ code {
   top: 0;
   background: #363636;
   margin: auto;
+}
+.positioned-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.chart {
+  width: 60px;
+  height: 180px;
+}
+.chart-column {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.chart-container {
+  width: 60px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.additional-class {
+  position: relative;
+}
+@keyframes animation {
+  0% {height: 0}
+}
+.animation > div {
+  animation: animation 1.5s linear forwards;
 }
