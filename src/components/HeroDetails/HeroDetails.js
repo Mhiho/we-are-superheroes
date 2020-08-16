@@ -11,7 +11,7 @@ const heroDetails = (props) => {
   return (
     <div
       style={{ color: "white" }}
-      className="jumbotron fixed-position h-100 w-100"
+      className="jumbotron fixed-position w-100 media-query-jumbotron"
     >
       <h1 className="positioned-x">
         <span
@@ -23,21 +23,21 @@ const heroDetails = (props) => {
         </span>
       </h1>
       <p className="lead">
-          <h1>{props.name}</h1>
-        <div className="d-flex align-items-start justify-content-start flex-col">
+        <div className="d-flex align-items-start justify-content-start flex-col media-query-class">
           <img style={{ width: "30%" }} src={props.src} alt="imageBigHero" />
-          <div className="p-2 m-2">
+          <div className="p-2 container-hero-details">
+          <h1 className="text-center text-danger">{props.name}</h1>
               <div className="d-flex flex-row">
 
-          <h3 className="d-flex align-items-center">Powers: </h3>  
+          <h3 className="d-flex align-items-center text-warning">Powers: </h3>  
           {statsElements.map((el, index) => (
-              <div className="d-flex flex-col w-100 align-items-start additional-class">
-                  <Chart label={statsKeys[index]} percentage={el} />
+              <div className="d-flex flex-col align-items-start additional-class">
+                  <Chart key={`powers-${el}-${index}`} label={statsKeys[index]} percentage={el} />
               </div>
             ))}
           </div>
           <div>
-            <h3>Biography: </h3>
+            <h3 className="text-warning">Biography: </h3>
             {bioElements.map((el, index) => (
                 <h4>
                 <span>{bioKeys[index]}: </span>

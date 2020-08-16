@@ -29,14 +29,12 @@ function App() {
 
   return (
     <>
-        <div className="mt-3 row justify-content-md-center">
-          <div className="row">
+        <div className="mt-3 mb-3 d-flex justify-content-center">
             <SearchHero
               term={term}
               change={(e) => setTerm(e.target.value)}
               submit={handleSubmit}
             />
-          </div>
         </div>
       <div className="row justify-content-md-center">
         <HeroesList

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Adventure';
   src: local('Adventure'), url('./style/fonts/Adventure.otf') format('opentype');
@@ -26,7 +32,7 @@ code {
   right: 10px;
 }
 .chart {
-  width: 60px;
+  width: 90px;
   height: 180px;
 }
 .chart-column {
@@ -37,16 +43,51 @@ code {
 .chart-container {
   width: 60px;
   height: 180px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.additional-class {
-  position: relative;
-}
+
 @keyframes animation {
-  0% {height: 0}
+  0% {height: 0px}
 }
-.animation > div {
+@keyframes animation2 {
+  0% {height: 100px}
+}
+.media-query-jumbotron {
+  height: 100vh;
+}
+.animation .chart-column {
   animation: animation 1.5s linear forwards;
+}
+.animation .resize {
+  animation: animation2 1.5s linear forwards;
+}
+@media (max-width: 880px) {
+  .media-query-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ .media-query-class > img {
+   margin: auto;
+   width: 100px !important;
+ }
+ .media-query-jumbotron * {
+   font-size: 1em;
+ }
+ .media-query-jumbotron h6 {
+   font-size: .8rem;
+ }
+ .media-query-jumbotron .chart-container, .chart {
+   width: 40px;
+   height: 160px;
+ }
+ .lead .container-hero-details {
+   width: 100%;
+ }
+ .lead h1 {
+  margin: 0;
+ }
 }
