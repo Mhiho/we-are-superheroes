@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/we-are-superheroes/static/css/main.b57cf55e.chunk.css",
-    "main.js": "/we-are-superheroes/static/js/main.acac96d5.chunk.js",
-    "main.js.map": "/we-are-superheroes/static/js/main.acac96d5.chunk.js.map",
+    "main.css": "/we-are-superheroes/static/css/main.e845c6cf.chunk.css",
+    "main.js": "/we-are-superheroes/static/js/main.62de4e48.chunk.js",
+    "main.js.map": "/we-are-superheroes/static/js/main.62de4e48.chunk.js.map",
     "runtime-main.js": "/we-are-superheroes/static/js/runtime-main.af66d4c8.js",
     "runtime-main.js.map": "/we-are-superheroes/static/js/runtime-main.af66d4c8.js.map",
     "static/js/2.c4dff2a4.chunk.js": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js",
     "static/js/2.c4dff2a4.chunk.js.map": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js.map",
     "index.html": "/we-are-superheroes/index.html",
-    "precache-manifest.fdd6bdab458edad082d4255090c86e01.js": "/we-are-superheroes/precache-manifest.fdd6bdab458edad082d4255090c86e01.js",
+    "precache-manifest.7b111510ceb508bf4c1c6a80b208c441.js": "/we-are-superheroes/precache-manifest.7b111510ceb508bf4c1c6a80b208c441.js",
     "service-worker.js": "/we-are-superheroes/service-worker.js",
-    "static/css/main.b57cf55e.chunk.css.map": "/we-are-superheroes/static/css/main.b57cf55e.chunk.css.map",
+    "static/css/main.e845c6cf.chunk.css.map": "/we-are-superheroes/static/css/main.e845c6cf.chunk.css.map",
     "static/js/2.c4dff2a4.chunk.js.LICENSE.txt": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/we-are-superheroes/static/media/Adventure.5a181986.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.af66d4c8.js",
     "static/js/2.c4dff2a4.chunk.js",
-    "static/css/main.b57cf55e.chunk.css",
-    "static/js/main.acac96d5.chunk.js"
+    "static/css/main.e845c6cf.chunk.css",
+    "static/js/main.62de4e48.chunk.js"
   ]
 }
