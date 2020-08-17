@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there is name 1`] = `
+<li
+  className="list-group-item"
+>
+  <img
+    alt="heroImage"
+    className="rounded float-left"
+    style={
+      Object {
+        "width": "100px",
+      }
+    }
+  />
+  <div
+    className="h-100 d-flex align-items-center justify-content-center"
+  >
+    <h3>
+      string
+    </h3>
+  </div>
+</li>
+`;
+
+exports[`renders correctly when there is no props 1`] = `
+<li
+  className="list-group-item"
+>
+  <img
+    alt="heroImage"
+    className="rounded float-left"
+    style={
+      Object {
+        "width": "100px",
+      }
+    }
+  />
+  <div
+    className="h-100 d-flex align-items-center justify-content-center"
+  >
+    <h3 />
+  </div>
+</li>
+`;
+
+exports[`renders correctly when there is src 1`] = `
+<li
+  className="list-group-item"
+>
+  <img
+    alt="heroImage"
+    className="rounded float-left"
+    src="path"
+    style={
+      Object {
+        "width": "100px",
+      }
+    }
+  />
+  <div
+    className="h-100 d-flex align-items-center justify-content-center"
+  >
+    <h3 />
+  </div>
+</li>
+`;

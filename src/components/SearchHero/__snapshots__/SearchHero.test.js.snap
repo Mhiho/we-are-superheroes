@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when term is empty string 1`] = `
+<div>
+  <form>
+    <input
+      placeholder="type your superhero"
+      type="search"
+    />
+    <input
+      className="btn btn-md btn-primary"
+      type="submit"
+      value="search"
+    />
+  </form>
+</div>
+`;
+
+exports[`renders correctly where there is object as props 1`] = `
+<div>
+  <form>
+    <input
+      placeholder="type your superhero"
+      type="search"
+      value="term"
+    />
+    <input
+      className="btn btn-md btn-primary"
+      type="submit"
+      value="search"
+    />
+  </form>
+</div>
+`;

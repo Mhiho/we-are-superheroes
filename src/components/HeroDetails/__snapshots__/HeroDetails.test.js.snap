@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when <HeroDetails /> is null 1`] = `null`;
+
+exports[`renders correctly where there is object as props 1`] = `
+<div
+  className="jumbotron fixed-position w-100 media-query-jumbotron"
+  style={
+    Object {
+      "color": "white",
+    }
+  }
+>
+  <h1
+    className="positioned-x"
+  >
+    <span
+      className="float-right"
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }
+    >
+      ✘
+    </span>
+  </h1>
+  <p
+    className="lead"
+  >
+    <div
+      className="d-flex align-items-start justify-content-start flex-col media-query-class"
+    >
+      <img
+        alt="imageBigHero"
+        style={
+          Object {
+            "width": "30%",
+          }
+        }
+      />
+      <div
+        className="p-2 container-hero-details"
+      >
+        <h1
+          className="text-center text-danger"
+        />
+        <div
+          className="d-flex flex-row"
+        >
+          <h3
+            className="d-flex align-items-center text-warning"
+          >
+            Powers: 
+          </h3>
+          <div
+            className="d-flex flex-col align-items-start additional-class"
+          >
+            <div
+              className="chart-container d-flex justify-content-center"
+            >
+              <div
+                className="chart animation"
+              >
+                <p
+                  className="text-center"
+                >
+                  one
+                </p>
+                <div
+                  className="resize"
+                  style={
+                    Object {
+                      "background": "#363636",
+                      "height": "NaNpx",
+                      "margin": "auto",
+                      "width": "30px",
+                    }
+                  }
+                />
+                <div
+                  className="chart-column"
+                  style={
+                    Object {
+                      "background": "gold",
+                      "height": "onepx",
+                      "margin": "auto",
+                      "width": "30px",
+                    }
+                  }
+                />
+                <h6
+                  className="text-center"
+                >
+                  0
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-col align-items-start additional-class"
+          >
+            <div
+              className="chart-container d-flex justify-content-center"
+            >
+              <div
+                className="chart animation"
+              >
+                <p
+                  className="text-center"
+                >
+                  two
+                </p>
+                <div
+                  className="resize"
+                  style={
+                    Object {
+                      "background": "#363636",
+                      "height": "NaNpx",
+                      "margin": "auto",
+                      "width": "30px",
+                    }
+                  }
+                />
+                <div
+                  className="chart-column"
+                  style={
+                    Object {
+                      "background": "gold",
+                      "height": "twopx",
+                      "margin": "auto",
+                      "width": "30px",
+                    }
+                  }
+                />
+                <h6
+                  className="text-center"
+                >
+                  1
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3
+            className="text-warning"
+          >
+            Biography: 
+          </h3>
+          <h4>
+            <span>
+              0
+              : 
+            </span>
+            one
+          </h4>
+          <h4>
+            <span>
+              1
+              : 
+            </span>
+            two
+          </h4>
+        </div>
+      </div>
+    </div>
+  </p>
+</div>
+`;

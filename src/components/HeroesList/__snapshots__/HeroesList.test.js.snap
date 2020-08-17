@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there is no props 1`] = `null`;
+
+exports[`renders correctly where there are props 1`] = `null`;

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there is label 1`] = `
+<div
+  className="chart-container d-flex justify-content-center"
+>
+  <div
+    className="chart animation"
+  >
+    <p
+      className="text-center"
+    />
+    <div
+      className="resize"
+      style={
+        Object {
+          "background": "#363636",
+          "height": "NaNpx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <div
+      className="chart-column"
+      style={
+        Object {
+          "background": "gold",
+          "height": "undefinedpx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <h6
+      className="text-center"
+    >
+      label
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when there is no props 1`] = `
+<div
+  className="chart-container d-flex justify-content-center"
+>
+  <div
+    className="chart animation"
+  >
+    <p
+      className="text-center"
+    />
+    <div
+      className="resize"
+      style={
+        Object {
+          "background": "#363636",
+          "height": "NaNpx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <div
+      className="chart-column"
+      style={
+        Object {
+          "background": "gold",
+          "height": "undefinedpx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <h6
+      className="text-center"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders correctly when there is percentage 1`] = `
+<div
+  className="chart-container d-flex justify-content-center"
+>
+  <div
+    className="chart animation"
+  >
+    <p
+      className="text-center"
+    >
+      percentage
+    </p>
+    <div
+      className="resize"
+      style={
+        Object {
+          "background": "#363636",
+          "height": "NaNpx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <div
+      className="chart-column"
+      style={
+        Object {
+          "background": "gold",
+          "height": "percentagepx",
+          "margin": "auto",
+          "width": "30px",
+        }
+      }
+    />
+    <h6
+      className="text-center"
+    />
+  </div>
+</div>
+`;
