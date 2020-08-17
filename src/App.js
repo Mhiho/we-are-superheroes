@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <ErrorBoundary>
-        <div className="mt-3 mb-3 d-flex justify-content-center">
+        <div className="mt-3 mb-5 d-flex justify-content-center">
           <SearchHero
             term={term}
             change={(e) => setTerm(e.target.value)}

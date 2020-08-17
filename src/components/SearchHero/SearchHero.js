@@ -2,7 +2,7 @@ import React from "react";
 
 const searchHero = (props) => {
   return (
-    <div>
+    <div className="search-position-fixed">
       <form onSubmit={props.submit}>
         <input
           placeholder="type your superhero"

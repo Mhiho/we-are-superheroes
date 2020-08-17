@@ -113,3 +113,8 @@ code {
    justify-content: center;
  }
 }
+
+.search-position-fixed {
+  position: fixed;
+  z-index: 99;
+}
