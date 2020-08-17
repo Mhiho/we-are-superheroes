@@ -4,7 +4,7 @@ import { searchFunction } from "./services/searchFunction";
 import HeroesList from "./components/HeroesList/HeroesList";
 import HeroDetails from "./components/HeroDetails/HeroDetails";
 import "./index.css";
-import ErrorBoundary from './services/ErrorBoundary'
+import ErrorBoundary from "./services/ErrorBoundary";
 
 function App() {
   const [term, setTerm] = useState("");
@@ -30,34 +30,33 @@ function App() {
 
   return (
     <>
-                        <ErrorBoundary>
+      <ErrorBoundary>
         <div className="mt-3 mb-3 d-flex justify-content-center">
-            <SearchHero
-              term={term}
-              change={(e) => setTerm(e.target.value)}
-              submit={handleSubmit}
-            />
-        </div>
-      <div className="row justify-content-md-center">
-        <HeroesList
-          className=""
-          results={results}
-          passId={(id) => handleClick(id)}
+          <SearchHero
+            term={term}
+            change={(e) => setTerm(e.target.value)}
+            submit={handleSubmit}
           />
-      </div>
-      {bioView === true ? (
-
-        <HeroDetails
-        name={hero.name}
-        bioels={hero.biography}
-        biokeys={hero.biography}
-        statels={hero.powerstats}
-        statkeys={hero.powerstats}
-        src={hero.image.url}
-        close={() => handleClose()}
-        />
+        </div>
+        <div className="row justify-content-md-center">
+          <HeroesList
+            className=""
+            results={results}
+            passId={(id) => handleClick(id)}
+          />
+        </div>
+        {bioView === true ? (
+          <HeroDetails
+            name={hero.name}
+            bioels={hero.biography}
+            biokeys={hero.biography}
+            statels={hero.powerstats}
+            statkeys={hero.powerstats}
+            src={hero.image.url}
+            close={() => handleClose()}
+          />
         ) : null}
-        </ErrorBoundary>
+      </ErrorBoundary>
     </>
   );
 }

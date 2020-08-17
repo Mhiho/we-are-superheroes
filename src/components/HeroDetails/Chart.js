@@ -4,7 +4,7 @@ import "../../index.css";
 const Chart = (props) => {
   return (
     <div className="chart-container d-flex justify-content-center">
-      <div className="chart animation">
+      <div className="chart animation text-center">
         <p className="text-center">{props.percentage}</p>
         <div
           style={{
@@ -24,7 +24,7 @@ const Chart = (props) => {
           }}
           className="chart-column"
         ></div>
-        <h6 className="text-center">{props.label}</h6>
+        <h6 className="chart-label">{props.label}</h6>
       </div>
     </div>
   );
