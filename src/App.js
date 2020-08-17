@@ -4,6 +4,7 @@ import { searchFunction } from "./services/searchFunction";
 import HeroesList from "./components/HeroesList/HeroesList";
 import HeroDetails from "./components/HeroDetails/HeroDetails";
 import "./index.css";
+import ErrorBoundary from './services/ErrorBoundary'
 
 function App() {
   const [term, setTerm] = useState("");
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <>
+                        <ErrorBoundary>
         <div className="mt-3 mb-3 d-flex justify-content-center">
             <SearchHero
               term={term}
@@ -44,6 +46,7 @@ function App() {
           />
       </div>
       {bioView === true ? (
+
         <HeroDetails
         name={hero.name}
         bioels={hero.biography}
@@ -54,6 +57,7 @@ function App() {
         close={() => handleClose()}
         />
         ) : null}
+        </ErrorBoundary>
     </>
   );
 }

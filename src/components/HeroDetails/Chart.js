@@ -7,7 +7,12 @@ const Chart = (props) => {
       <div className="chart animation">
         <p className="text-center">{props.percentage}</p>
         <div
-          style={{ background: "#363636", width: "30px", margin: "auto", height:`${100-props.percentage}px` }}
+          style={{
+            background: "#363636",
+            width: "30px",
+            margin: "auto",
+            height: `${100 - props.percentage}px`,
+          }}
           className="resize"
         ></div>
         <div
@@ -18,9 +23,8 @@ const Chart = (props) => {
             margin: "auto",
           }}
           className="chart-column"
-        >
-        </div>
-          <h6 className="text-center">{props.label}</h6>
+        ></div>
+        <h6 className="text-center">{props.label}</h6>
       </div>
     </div>
   );
