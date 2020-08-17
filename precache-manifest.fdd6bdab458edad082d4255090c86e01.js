@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "990884fa2809fab980229f4e3e0a814d",
+    "revision": "55ed6500041b158db3e006f31bcc05f6",
     "url": "/we-are-superheroes/index.html"
   },
   {
-    "revision": "1d6b5100ddfd99ae96f1",
-    "url": "/we-are-superheroes/static/css/main.06546951.chunk.css"
+    "revision": "e75f8bf3c2795d896555",
+    "url": "/we-are-superheroes/static/css/main.b57cf55e.chunk.css"
   },
   {
     "revision": "66951a72b33d3f42e78f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d6b5100ddfd99ae96f1",
-    "url": "/we-are-superheroes/static/js/main.59879103.chunk.js"
+    "revision": "e75f8bf3c2795d896555",
+    "url": "/we-are-superheroes/static/js/main.acac96d5.chunk.js"
   },
   {
     "revision": "9a25fdef99bad745217b",
