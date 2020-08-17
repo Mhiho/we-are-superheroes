@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/we-are-superheros/static/css/main.596f8469.chunk.css",
-    "main.js": "/we-are-superheros/static/js/main.8e593fdb.chunk.js",
-    "main.js.map": "/we-are-superheros/static/js/main.8e593fdb.chunk.js.map",
-    "runtime-main.js": "/we-are-superheros/static/js/runtime-main.0c495ce7.js",
-    "runtime-main.js.map": "/we-are-superheros/static/js/runtime-main.0c495ce7.js.map",
-    "static/js/2.c4dff2a4.chunk.js": "/we-are-superheros/static/js/2.c4dff2a4.chunk.js",
-    "static/js/2.c4dff2a4.chunk.js.map": "/we-are-superheros/static/js/2.c4dff2a4.chunk.js.map",
-    "index.html": "/we-are-superheros/index.html",
-    "precache-manifest.fea9cb6ed687eca8cae2b747bde93da1.js": "/we-are-superheros/precache-manifest.fea9cb6ed687eca8cae2b747bde93da1.js",
-    "service-worker.js": "/we-are-superheros/service-worker.js",
-    "static/css/main.596f8469.chunk.css.map": "/we-are-superheros/static/css/main.596f8469.chunk.css.map",
-    "static/js/2.c4dff2a4.chunk.js.LICENSE.txt": "/we-are-superheros/static/js/2.c4dff2a4.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/we-are-superheros/static/media/Adventure.5a181986.otf"
+    "main.css": "/we-are-superheroes/static/css/main.06546951.chunk.css",
+    "main.js": "/we-are-superheroes/static/js/main.59879103.chunk.js",
+    "main.js.map": "/we-are-superheroes/static/js/main.59879103.chunk.js.map",
+    "runtime-main.js": "/we-are-superheroes/static/js/runtime-main.af66d4c8.js",
+    "runtime-main.js.map": "/we-are-superheroes/static/js/runtime-main.af66d4c8.js.map",
+    "static/js/2.c4dff2a4.chunk.js": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js",
+    "static/js/2.c4dff2a4.chunk.js.map": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js.map",
+    "index.html": "/we-are-superheroes/index.html",
+    "precache-manifest.7ce4186ca5b0a0416ff4d54162d0d2fe.js": "/we-are-superheroes/precache-manifest.7ce4186ca5b0a0416ff4d54162d0d2fe.js",
+    "service-worker.js": "/we-are-superheroes/service-worker.js",
+    "static/css/main.06546951.chunk.css.map": "/we-are-superheroes/static/css/main.06546951.chunk.css.map",
+    "static/js/2.c4dff2a4.chunk.js.LICENSE.txt": "/we-are-superheroes/static/js/2.c4dff2a4.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/we-are-superheroes/static/media/Adventure.5a181986.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c495ce7.js",
+    "static/js/runtime-main.af66d4c8.js",
     "static/js/2.c4dff2a4.chunk.js",
-    "static/css/main.596f8469.chunk.css",
-    "static/js/main.8e593fdb.chunk.js"
+    "static/css/main.06546951.chunk.css",
+    "static/js/main.59879103.chunk.js"
   ]
 }
